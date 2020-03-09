@@ -1,3 +1,9 @@
+/*
+ * Kevin Kantono
+ * 03/08/2020
+ * Class of Products with details of product code, product description, product price, and its quantity
+ */
+
 package assignment9;
 
 import java.text.NumberFormat;
