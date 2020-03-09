@@ -47,7 +47,6 @@ public class Products {
 	public String toString() {
 		return ("Product # " + productCode + " is " + description + '\n' + "Currently " + productCount + " on hand \n"
 				+ "Price: $" + price);
-
 	}
 
 	public void selling(int sold) {
@@ -62,6 +61,5 @@ public class Products {
 		double newPrice = (price - discountedAmount / 100 * price);
 		this.price = (Math.round(newPrice * 100.0) / 100.0); // TWO DECIMAL formatting
 	}
-
 
 }
