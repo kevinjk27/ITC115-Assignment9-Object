@@ -45,7 +45,7 @@ public class Products {
 	}
 
 	public String toString() {
-		return ("Product # " + productCode + " is " + description + '\n' + "Currently " + productCount + " on hand \n"
+		return ("Product #" + productCode + " is " + description + '\n' + "Currently " + productCount + " on hand \n"
 				+ "Price: $" + price);
 	}
 
